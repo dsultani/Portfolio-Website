@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width", inital-scale=1.0>
+    <meta charset="UTF-8">
+    <title>Danyal Sultani - Contact Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="../Contact/contact.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>  
+    <header>
+        <a href="../index.html" class="logo">Danyal Sultani</a>
+        <ul class="navigation">
+            <li><a href="../About/about.html">About</a></li>
+            <li><a href="../Portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="../Services/service.html">Services</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../Shop/shop.html">Shop</a></li>
+            <li class="cart">
+                <a href="../Cart/cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span>0</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <div class="contactus_text">   
+            <h1>Contact Me</h1>
+            <p>Please contact me using the form below<br>My usual respose time is 24 hours but if your query is urgent then please call me using the number below</p>
+        </div>
+        <div class="contact_box">
+            <div class="contact_box_left">
+                <h3>Get in Touch</h3>
+                <form>
+                    <div class="form_row">  
+                        <div class="form_group">
+                            <lable>Full Name</lable>
+                            <input type="text" placeholder="John Smith">
+                        </div>
+                        <div class="form_group">
+                            <lable>Email Address</lable>
+                            <input type="email" placeholder="johnsmith@mail.com">
+                        </div>
+                    </div>
+                    <div class="form_row">  
+                        <div class="form_group">
+                            <lable>Phone Number</lable>
+                            <input type="text" placeholder="07900000000">
+                        </div>
+                        <div class="form_group">
+                            <lable>Subject</lable>
+                            <input type="text" placeholder="Architecture or Interior Design">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Write your message here..."></textarea>
+                        <button type="submit">SEND</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact_box_right">
+                <h3>Contact Info</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>                            
+                        <td>hello@danyalsultanidesign.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>                            
+                        <td>07900 905 123</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>                            
+                        <td>1 Birkbeck House, <br>University Road, <br>London, <br>SW1V 5VV</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="modal-container" id="modal-container">
+            <div class="modal" id="modal">
+                <button class="close_btn" id="close">&times;</button>
+                <div class="modal_content">
+                    <div class="modal_header">
+                        <h2 class="header">Sign up to my newsletter!</h2>
+                        <p id="tagline">Keep up with my latest projects by signing up to my quarterly newsletter and you won't miss a thing</p>
+                    </div>
+                    <form>
+                        <input type="email" placeholder="johnsmith@mail.com">
+                        <button class="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <script src="../main.js"></script>
+    </section>    
+    <footer>
+        <div class="footer_container"> 
+            <div class="sec footer_reviews">
+                <h2>Follow Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur rerum, iusto accusamus, numquam et vero aliquam delectus accusantium quo!</p>
+                <ul class="icons_socialmedia">
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec footer_links">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Enquiries</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="sec footer_contact">
+                    <h2>Contact Info</h2>
+                    <ul class="footer_contact-info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>1 Birkbeck House, <br>University Road,</br> London, SW1V 5VV</br></span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                            <p><a href="tel:07900905123">07900 905 123</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span>
+                            <p><a href="mailto:hello@danyalsultanidesign.com">hello@danyalsultanidesign.com</a></p>
+                        </li>
+                </ul>
+        </div>
+    </footer>
+</body>
+</html>

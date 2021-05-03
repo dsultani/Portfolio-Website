@@ -1,0 +1,169 @@
+
+body
+{
+    background: #e3e4e6;
+    font-size: 14px;
+}
+
+img:hover
+{
+    transform: scale(1.5);
+}
+
+.container_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 50px 50px;
+    padding-top: 50px;
+    height: 50px;
+    width: auto;
+}
+
+.container_1 h1
+{
+    color: #171f2f;
+}
+
+.container_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+
+}
+.ocs
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    color: #171f2f;
+    margin: 10px;
+}
+.ocs h3
+{
+    font-size: 16px;
+}
+
+.ocs p
+{
+    font-size: 12px;
+}
+
+.ocs img
+{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.container_3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+
+}
+.cornerhouse
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    color: #171f2f;
+    margin: 10px;
+}
+.cornerhouse h3
+{
+    font-size: 16px;
+}
+
+.cornerhouse p
+{
+    font-size: 12px;
+}
+
+.cornerhouse img
+{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.container_4
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+
+}
+.victorianworkshop
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    color: #171f2f;
+    margin: 10px;
+}
+.victorianworkshop h3
+{
+    font-size: 16px;
+}
+
+.victorianworkshop p
+{
+    font-size: 12px;
+}
+
+.victorianworkshop img
+{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.container_5
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 75px;
+}
+
+button
+{
+    background: #171f2f;
+    width: 125px;
+    border: none;
+    outline: none;
+    color:#e3e4e6;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(25, 0, 175,0.3);
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: gold;
+    color: #171f2f
+}
+

@@ -1,0 +1,170 @@
+body
+{
+    background: #e3e4e6;
+    font-size: 14px;
+}
+
+
+.contactus_text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+.contact_box
+{
+    background: white;
+    display: flex;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.contact_box_left
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact_box_left h3
+{
+    color: #171f2f;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+
+.form_row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form_row .form_group
+{
+    flex-basis: 45%;
+}
+
+input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.897);
+    outline: none;
+    padding-bottom: 5px;
+}
+
+
+label
+{
+    margin-bottom: 6px;
+    display: block;
+    color: #171f2f;
+}
+
+textarea
+{
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.897);
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button
+{
+    background: #171f2f;
+    width: 125px;
+    border: none;
+    outline: none;
+    color:#e3e4e6;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(25, 0, 175,0.3);
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: gold;
+    color: #171f2f
+}
+
+.contact_box_right
+{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #171f2f;
+    color: white;
+}
+
+.contact_box_right h3
+{
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+tr td:first-child
+{
+    padding-right: 20px;
+}
+
+tr td
+{
+    padding-top: 30px;
+}
+
+/* ---- Media Queries Smart Phones --- */
+
+@media screen and (max-width: 480px)
+{
+
+    body
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contactus_text
+    {
+        margin-top: 100px;
+    }
+    .contact_box_left
+    {
+        width:fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .form_row
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_box_right
+    {
+        display: none;
+    }
+}
+
+/* ---- Media Queries Tablets --- */
+
+@media screen and (min-width: 481px) and (max-width: 769px)
+{
+
+.contact_box
+{
+    flex-direction: column;    
+
+}
+}
